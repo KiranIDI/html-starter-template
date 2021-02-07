@@ -1,0 +1,28 @@
+/* Cursor Css */
+.cursor {
+    width: 6px;
+    height: 5px;
+    background-color: #155A9B;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: none;
+    transition: none;
+    Pointer-events: none;
+    z-index: 9999999999;
+}
+.cursor2 {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid #155A9B;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    -webkit-transition: none;
+    transition: none;
+    Pointer-events: none;
+    z-index: 9999999999;
+}
