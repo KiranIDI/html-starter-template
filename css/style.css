@@ -1,28 +1,56 @@
 /* Cursor Css */
 .cursor {
-    width: 6px;
-    height: 5px;
-    background-color: #155A9B;
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    -webkit-transition: none;
-    transition: none;
-    Pointer-events: none;
-    z-index: 9999999999;
+  width: 6px;
+  height: 5px;
+  background-color: #155a9b;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: none;
+  transition: none;
+  pointer-events: none;
+  z-index: 9999999999;
 }
 .cursor2 {
-    position: absolute;
-    height: 25px;
-    width: 25px;
-    border-radius: 50%;
-    border: 1px solid #155A9B;
-    position: absolute;
-    top: 9px;
-    left: 9px;
-    -webkit-transition: none;
-    transition: none;
-    Pointer-events: none;
-    z-index: 9999999999;
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: 1px solid #155a9b;
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  -webkit-transition: none;
+  transition: none;
+  pointer-events: none;
+  z-index: 9999999999;
+}
+/* Top Header */
+.top-header {
+  background-color: rgb(36, 53, 89);
+  padding: 10px;
+}
+.top-header a {
+  padding-left: 50px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+.top-header a:hover {
+  color: gainsboro;
+  font-weight: bold;
+}
+.top-header i {
+  margin-right: 10px;
+}
+/* Bottom Header */
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.navbar-brand img {
+  width: 60px;
+  border-radius: 30px;
+  margin-left: 30px;
 }
